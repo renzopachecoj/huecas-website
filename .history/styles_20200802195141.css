@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #fff;
+}
+body{
+    background-color: #272932;
+    background-color: #451F55;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0px 20px 0px;
+}
+h2, caption{
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+}
+.col{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+.contenido{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.tabla{
+    width: 100%;
+}
+.formulario, .mapa{
+    width: 50%;
+}
+input{
+    width: 70%;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #ACEB98;
+    background-color: #F8C630;
+    margin-bottom: 5px;
+    color: black
+}
+input[value="Enviar"]{
+    width: 15%;
+    color: #fff;
+    font-weight: bold;
+}
+#map{
+    height: 100%;
+    border-radius: 5px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+    text-align: left;
+    border-radius: 5px;
+}
+th{
+    background-color: #ACEB98;
+    background-color: #F8C630;
+    color: black;
+}
+.search-container{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.search-container input{
+    width: 30%;
+    color: #fff;
+}
+.search-container input[value="Buscar"]{
+    width: 10%;
+    color: #fff;
+    font-weight: bold;
+}
+text{
+    color: black;
+    font-size: 15px;
+}
+strong{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+input[type="submit"]{
+    background-color: #2892D7;
+    background-color: #E54F6D;
+}
+label{
+    display: table-cell;
+    text-align: right;
+}
+input {
+  display: table-cell;
+}

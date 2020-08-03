@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #fff;
+}
+body{
+    background-color: #826AED;
+}
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+}
+h2{
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    column-gap: 2%;
+    width: 100%;
+    margin: 0px 5px 5px 5px;
+}
+input{
+    width: 90%;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #CAFF8A;
+    margin-bottom: 5px;
+}
+input[value="Enviar"]{
+    width: 10%;
+    z-index: 100;
+}

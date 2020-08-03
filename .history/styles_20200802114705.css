@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
+
+* {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #fff;
+}
+
+body {
+    background-color: #826AED;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 5px 0px;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 5px 5px 5px;
+}
+#row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.formulario {
+    padding: 5px 5px 5px 5px;
+    width: 50%;
+    margin: 0px;
+    float: left;
+}
+.mapa {
+    padding: 5px 5px 5px 5px;
+    width: 50%;
+    float: right;
+}
+table{
+    width: 100%;
+}
+
+input {
+    width: 70%;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: #3BF4FB;
+    margin-bottom: 5px;
+    color: black
+}
+
+input[value="Enviar"] {
+    width: 10%;
+    color: black;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+    height: 100%;
+}
