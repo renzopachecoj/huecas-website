@@ -101,7 +101,7 @@
     </div>
   </div>
   </div>
-  <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCy3nPtTXt2RDoSpmytlphtz0FX0b0Uf80&callback=initMap">
+  <script defer src="https://maps.googleapis.com/maps/api/js?key={YOUR_KEY_HERE}&callback=initMap">
   </script>
 </body>
 
